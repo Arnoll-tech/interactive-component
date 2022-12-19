@@ -137,19 +137,21 @@ body {
 }
 
 ul{
-  display: flexbox;
-  flex-direction: row-reverse;
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
     li{
         margin: 0.5rem;
         background-color: $dark-blue;
         color: $white;
-        border-radius: 2rem;
-        padding: 1rem;
-        width: 1rem;
+        border-radius: 100%;
+        padding: 4%;
+        transition: 0.3s;
     }
     :hover{
       background-color: $orange;
-      transition: 0.2s;
+      transition: 0.3s;
+      cursor: pointer;
     }
 }
 
@@ -165,4 +167,5 @@ ul{
 .btn-submit:hover{
   background-color: $white;
   color: $orange;
+  cursor: pointer;
 }
