@@ -152,7 +152,14 @@ ul li {
 .btn-submit {
   background-color: hsl(25deg, 97%, 53%);
   color: hsl(0deg, 0%, 100%);
-  margin: 1rem;
-  padding: 0.7rem;
+  margin: auto;
+  padding: 0.5rem 4rem 0.5rem;
   border-radius: 2rem;
+  text-align: center;
+  transition: background-color 0.2s;
+}
+
+.btn-submit:hover {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
 }/*# sourceMappingURL=main.css.map */

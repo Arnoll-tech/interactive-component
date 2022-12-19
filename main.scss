@@ -145,7 +145,13 @@ ul{
 .btn-submit{
   background-color: $orange;
   color: $white;
-  margin: 1rem;
-  padding: 0.7rem;
+  margin: auto;
+  padding: 0.5rem 4rem 0.5rem;
   border-radius: 2rem;
+  text-align: center;
+  transition: background-color 0.2s;
+}
+.btn-submit:hover{
+  background-color: $white;
+  color: $orange;
 }
