@@ -4,6 +4,7 @@ $light_grey: hsl(217, 12%, 63%);
 $medium_grey: hsl(216, 12%, 54%);
 $dark-blue: hsl(213, 19%, 18%);
 $very_dark_blue: hsl(216, 12%, 8%);
+$negro: hsl(0, 0%, 0%) ;
 
 
 
@@ -124,8 +125,27 @@ body {
     font-size   : 100%;
     font-family : var(--tipo-principal);
     color       : var(--negro);
-    /* (Opcional) */ hyphens: auto;
-    /* (Opcional) */ font-smooth: always;
-    /* (Opcional) */ -webkit-font-smoothing: antialiased;
-    /* (Opcional) */ -moz-osx-font-smoothing: grayscale;
+}
+.conteiner{
+    margin: 20rem;
+}
+.card{
+    color: $negro;
+}
+.text--title{
+    font-size: 1.9rem;
+}
+
+ul{
+    li{
+        display: block;
+        margin: 0.5rem;
+    }
+}
+.btn-submit{
+  background-color: $orange;
+  color: $white;
+  margin: 1rem;
+  padding: 0.7rem;
+  border-radius: 2rem;
 }
