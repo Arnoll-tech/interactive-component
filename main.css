@@ -144,9 +144,21 @@ body {
   font-size: 1.9rem;
 }
 
+ul {
+  display: flexbox;
+  flex-direction: row-reverse;
+}
 ul li {
-  display: block;
   margin: 0.5rem;
+  background-color: hsl(213deg, 19%, 18%);
+  color: hsl(0deg, 0%, 100%);
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 1rem;
+}
+ul :hover {
+  background-color: hsl(25deg, 97%, 53%);
+  transition: 0.2s;
 }
 
 .btn-submit {

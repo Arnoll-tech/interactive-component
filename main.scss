@@ -137,11 +137,22 @@ body {
 }
 
 ul{
+  display: flexbox;
+  flex-direction: row-reverse;
     li{
-        display: block;
         margin: 0.5rem;
+        background-color: $dark-blue;
+        color: $white;
+        border-radius: 2rem;
+        padding: 1rem;
+        width: 1rem;
+    }
+    :hover{
+      background-color: $orange;
+      transition: 0.2s;
     }
 }
+
 .btn-submit{
   background-color: $orange;
   color: $white;
