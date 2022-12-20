@@ -132,16 +132,24 @@ body {
   color: var(--negro);
 }
 
+/*Comienzo de la estilizacion*/
 .conteiner {
   margin: 20rem;
 }
 
 .card {
   color: hsl(0deg, 0%, 0%);
+  font-family: "Overpass", sans-serif;
 }
 
-.text--title {
-  font-size: 1.9rem;
+.div__text--title {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.div__text--paragraph {
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
 ul {
