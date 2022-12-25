@@ -142,6 +142,19 @@ body {
   font-family: "Overpass", sans-serif;
 }
 
+.icon {
+  width: 3rem;
+  height: 3rem;
+  margin: 1rem;
+  border-radius: 100%;
+  background-color: hsl(213deg, 19%, 18%);
+}
+
+.img__icon {
+  padding: 1rem;
+  margin: 1rem;
+}
+
 .div__text--title {
   font-weight: 700;
   font-size: 2rem;
