@@ -154,13 +154,13 @@ body {
   background-color: hsl(213deg, 19%, 18%);
 }
 
-.img__icon {
+.icon__img {
   padding: 1rem;
-  margin: 1rem;
 }
 
 .text {
   color: hsl(0deg, 0%, 100%);
+  margin: 1rem;
 }
 
 .div__text--title {
@@ -170,7 +170,9 @@ body {
 
 .div__text--paragraph {
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  color: hsl(217deg, 12%, 63%);
+  justify-content: flex-start;
 }
 
 ul {
@@ -190,6 +192,9 @@ ul :hover {
   background-color: hsl(25deg, 97%, 53%);
   transition: 0.3s;
   cursor: pointer;
+}
+ul :active {
+  background-color: hsl(217deg, 12%, 63%);
 }
 
 .btn-submit {

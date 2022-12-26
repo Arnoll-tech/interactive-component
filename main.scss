@@ -145,12 +145,12 @@ body {
   border-radius: 100%;
   background-color: $dark-blue;
 }
-.img__icon{
+.icon__img{
   padding: 1rem;
-  margin: 1rem;
 }
 .text{
   color: $white;
+  margin: 1rem;
 }
 .div__text--title{
     font-weight: 700;
@@ -158,7 +158,9 @@ body {
 }
 .div__text--paragraph{
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  color: $light_grey;
+  justify-content: flex-start;
 }
 
 ul{
@@ -177,6 +179,9 @@ ul{
       background-color: $orange;
       transition: 0.3s;
       cursor: pointer;
+    }
+    :active{
+      background-color: $light_grey;
     }
 }
 
