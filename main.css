@@ -130,11 +130,15 @@ body {
   font-size: 100%;
   font-family: var(--tipo-principal);
   color: var(--negro);
+  /*color de fondo*/
+  background-color: hsl(0deg, 0%, 0%);
 }
 
 /*Comienzo de la estilizacion*/
 .conteiner {
   margin: 20rem;
+  background-color: hsl(216deg, 12%, 8%);
+  border-radius: 1rem;
 }
 
 .card {
@@ -153,6 +157,10 @@ body {
 .img__icon {
   padding: 1rem;
   margin: 1rem;
+}
+
+.text {
+  color: hsl(0deg, 0%, 100%);
 }
 
 .div__text--title {

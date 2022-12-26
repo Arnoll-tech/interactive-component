@@ -125,10 +125,14 @@ body {
     font-size   : 100%;
     font-family : var(--tipo-principal);
     color       : var(--negro);
+    /*color de fondo*/
+    background-color: $negro;
 }
 /*Comienzo de la estilizacion*/
 .conteiner{
     margin: 20rem;
+    background-color: $very_dark_blue;
+    border-radius: 1rem;
 }
 .card{
     color: $negro;
@@ -144,6 +148,9 @@ body {
 .img__icon{
   padding: 1rem;
   margin: 1rem;
+}
+.text{
+  color: $white;
 }
 .div__text--title{
     font-weight: 700;
