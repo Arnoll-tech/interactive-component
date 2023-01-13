@@ -138,6 +138,9 @@ body {
     color: $negro;
     font-family: 'Overpass', sans-serif;
 }
+.inactive{
+  display: none;
+}
 .icon{
   width: 3rem;
   height: 3rem;
