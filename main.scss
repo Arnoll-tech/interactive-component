@@ -148,6 +148,10 @@ body {
 .icon__img{
   padding: 1rem;
 }
+.div__img{
+  width: 20rem;
+  padding: 0.5rem;
+}
 .text{
   color: $white;
   margin: 1rem;
@@ -155,6 +159,7 @@ body {
 .div__text--title{
     font-weight: 700;
     font-size: 2rem;
+    text-align: center;
 }
 .div__text--paragraph{
   font-weight: 400;
@@ -162,7 +167,12 @@ body {
   color: $light_grey;
   justify-content: flex-start;
 }
-
+.div__text--paragraph--{
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: $light_grey;
+  text-align: center;
+}
 ul{
   display: flex;
   justify-content: space-between;

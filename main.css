@@ -158,6 +158,11 @@ body {
   padding: 1rem;
 }
 
+.div__img {
+  width: 20rem;
+  padding: 0.5rem;
+}
+
 .text {
   color: hsl(0deg, 0%, 100%);
   margin: 1rem;
@@ -166,6 +171,7 @@ body {
 .div__text--title {
   font-weight: 700;
   font-size: 2rem;
+  text-align: center;
 }
 
 .div__text--paragraph {
@@ -173,6 +179,13 @@ body {
   font-size: 1.2rem;
   color: hsl(217deg, 12%, 63%);
   justify-content: flex-start;
+}
+
+.div__text--paragraph-- {
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: hsl(217deg, 12%, 63%);
+  text-align: center;
 }
 
 ul {
